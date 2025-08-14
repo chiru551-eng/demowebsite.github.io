@@ -9,7 +9,7 @@
 $receiving_email_address = 'chiranjit551@gmail.com';
 
 // Load the PHP Email Form library
-$php_email_form_path = '../assets/vendor/php-email-form/php-email-form.php';
+$php_email_form_path = '../assets/vendor/php-email-form/contact-form-handler.php';
 if (file_exists($php_email_form_path)) {
   require_once($php_email_form_path);
 } else {
